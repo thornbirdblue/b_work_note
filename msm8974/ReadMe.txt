@@ -1,3 +1,5 @@
+PD1303:
+
 02-12
 正在发送       QCamera2HWICallbacks.cpp
 传输文件数据 .
@@ -47,3 +49,37 @@ camera open and close add wakelock!
 传输文件数据 .
 提交后的版本为 19607。
 [PD1303A]: pproc_port_sink_check_caps_reserve add error log for [B140301-036]（anr）锁屏界面左滑动进入相机，滑动背键拍照提示：相机停止运行（1/次20次）
+
+04-18
+正在发送       QCamera2HWICallbacks.cpp
+传输文件数据 .
+提交后的版本为 20272。
+PD1303A: Failed to config stream rc = -1. case:01505232 
+
+04-21
+正在发送       QCamera2HWICallbacks.cpp
+正在发送       QCameraParameters.cpp
+传输文件数据 ..
+提交后的版本为 20566。
+PD1303A: revert 20272 modify and add getExif error log
+
+04-25
+正在发送       QCamera2HWI.cpp
+正在发送       QCamera2HWI.h
+传输文件数据 ..
+提交后的版本为 21432。
+PD1303LG3:[B140320-064]（ANR）设置不同视频大小、开/关水印录像并拍照后提示“相机已停止运行”（1次/20次）
+          https://www.codeaurora.org/cgit/external/gigabyte/platform/hardware/qcom/camera/commit/?h=caf/kk_3.5_rb2.10&id=2ae46a9f85ade5db335eae088f8b57ecbfff99ba
+
+pd1302
+04-20
+正在发送       QCamera2HWICallbacks.cpp
+传输文件数据 .
+提交后的版本为 20510。
+[PD1302]: Failed to config stream rc = -1. [B140411-334]（进入相机后）从前置摄像头切换为后置，再次切换到夜景模式后按拍照键提示相机停止运行。（2次/20次）
+
+04-24
+正在发送       QCamera2HWICallbacks.cpp
+传输文件数据 .
+提交后的版本为 21163。
+[PD1302]:revert r20510 for Failed to config stream
