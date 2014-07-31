@@ -93,6 +93,24 @@ PD1303LG3:[B140320-064]（ANR）设置不同视频大小、开/关水印录像�
          [B140506-205]（重启）微信：点击微信运行手机重启/死机（5次/5次）
         [B140509-091]手机拍照后，退出相机后台进入省电，底电流降不下来，为11.6ma
 
+07-22
+正在发送       QCameraMem.cpp
+传输文件数据 .
+提交后的版本为 1973。
+tag:patch:PD1303 close QCameraHWI_Mem log
+
+正在发送       QCamera2HWI.cpp
+正在发送       QCameraParameters.cpp
+传输文件数据 ..
+提交后的版本为 31043。
+[PD1303A]:close HWI parameters log
+
+正在发送       liteon_13p1bca_eeprom.c
+传输文件数据 .
+提交后的版本为 31047。
+[PD1303]: close eeprom log
+
+
 06-06
 正在发送       sensor.c
 传输文件数据 .
@@ -103,6 +121,51 @@ PD1303LG3:[B140320-064]（ANR）设置不同视频大小、开/关水印录像�
 传输文件数据 .
 提交后的版本为 26018。
 [PD1303LG3]: add 30fps op clk to 600 for vfe overflow! (qcom patch)
+
+06-25
+正在发送       sensor.c
+传输文件数据 .
+提交后的版本为 27850。
+[PD1303LG3]: comment sensor_set_resolution() repeate SENSOR CFG
+             [B140620-030]（ANR）MTBF：进入相机，点击拍照时提示“相机”已停止运行。（1次/20次）
+
+
+正在发送       msm_cci.c
+传输文件数据 .
+提交后的版本为 27851。
+[PD1303LG3]: Modify cci wirte timeout from 100ms to 200ms
+             [B140620-030]（ANR）MTBF：进入相机，点击拍照时提示“相机”已停止运行。（1次/20次）
+
+06-27
+ats/q3a$ svn ci q3a_port.c
+正在发送       q3a_port.c
+传输文件数据 .
+提交后的版本为 28194。
+[PD1303LG3]: prepare snapshot hang error!
+             [B140627-327]进入相机切换POSE模式下反复开关闪光灯拍照提示相机停止运行（1次20次）
+
+07-04
+正在发送       mct_stream.c
+增加           mct_stream.h
+传输文件数据 ..
+提交后的版本为 28838。
+[PD1303LG3]: add qcom patch 0001-mm-camera2-fix-caching-prepare-snapsht-done-bug-msg-.patch
+            [B140627-327]进入相机切换POSE模式下反复开关闪光灯拍照提示相机停止运行（1次20次）
+
+07-15
+正在发送       QCameraParameters.cpp
+传输文件数据 .
+提交后的版本为 30222。
+[PD1303LG3]: correct Thumbnail size is error!
+
+07-18
+正在发送       msm_buf_mgr.c
+正在发送       msm_buf_mgr.h
+传输文件数据 ..
+提交后的版本为 1951。
+bbkpatch.shc commit msm_buf_mgr.h msm_buf_mgr.c -m "tag:patch:PD1303LG3 case 01616809 ION release error cause system reboot"
+
+
 
 pd1302
 04-20
@@ -157,6 +220,58 @@ PD1302: 0001-QCamera2-fix-the-mistake-type-of-getFlashValue
 [PD1302]: close util_set_color_correction_params log!
 
 
+06-23
+正在发送       sensor.c
+传输文件数据 .
+提交后的版本为 27604。
+[PD1302]: [B140622-188]（死机）进入相机设置视频大小为4K进入专业模式摄像，手机死机。
+
+06-24
+正在发送       libmmcamera2_frame_algorithm.so
+正在发送       libmmcamera2_stats_algorithm.so
+传输文件数据 ..
+提交后的版本为 27691。
+[B140603-129](anr)进入相机，开启闪光灯，切换到自动场景模式，在暗环境下识别后拍照，再移置正常环境下识别后拍照，出现“很抱歉，相机已停止运行”等字样（1/20）
+
+正在发送       pproc_port.c
+传输文件数据 .
+提交后的版本为 27705。
+[B140609-100]（内部试用）拍照按钮无作用
+
+06-25
+正在发送       pproc_port.c
+传输文件数据 .
+提交后的版本为 27806。
+	port_stream_info->stream_info = NULL; 
+
+正在发送       sensor.c
+传输文件数据 .
+提交后的版本为 27853。
+[PD1302L]:comment sensor_set_resolution() repeat reg set
+          [B140612-418](anr)在相册对图片进行任意编辑后home返回桌面，进入相机，连拍十多张，锁屏，解锁后home返回桌面，点击相册进入，弹出：相册已停止运行（2/20）
+
+06-26
+正在发送       mm_camera_channel.c
+传输文件数据 .
+提交后的版本为 27969。
+[PD1302l]:HAL's stopPreview is not execute finish.
+          [B140625-112]使用一键加速结束相机，锁屏，插旅充充电再解锁进入相机，提示相机故障。（1次/20次）
+
+06-28
+正在发送       q3a_port.c
+传输文件数据 .
+提交后的版本为 28217。
+[PD1302L]: qcom patch prepare snapshot question!
+           [B140623-125]（内部试用）手机拍照用专业拍照模式，拍照中显示“无法连接到相机”
+
+07-01
+正在发送       bus/mct_bus.c
+正在发送       stream/mct_stream.c
+传输文件数据 ..
+提交后的版本为 28418。
+[PD1302]: [B140621-043]专业相机，开启闪光灯拍照几张后向上滑动，提示相机故障，无法连接到相机（1/20）
+
+
 
 PD1302LG4
 正在发送       QCamera2HWI.cpp
@@ -189,3 +304,35 @@ PD1302LG4
 提交后的版本为 26266。
 [PD1302L]: add error log for cpp doreprocess error!
 
+06-30
+正在发送       q3a_port.c
+传输文件数据 .
+提交后的版本为 28297。
+[B140610-223]进入*#558#中关闭各种log，再进入文件管理中清除log，重启手机后，再开启log，然后进入相机，出现"相机故障，无法连接到相机"(1/20)
+
+07-31
+正在发送       QCameraPostProc.cpp
+传输文件数据 .
+提交后的版本为 32381。
+[PD1302]:correct ISO value
+         [B140519-175]夜晚拍照后，查看照片详细信息，ISO和曝光时间异常，ISO为2万多，曝光时间为十亿分之一（1/20）
+
+正在发送       QCameraStateMachine.cpp
+传输文件数据 .
+提交后的版本为 32401。
+[PD1302]: [B140725-021]monkey test：相机异常ANR，子类型/详细信息：keyDispatchingTimedOut/时间无响应
+
+PD1302F
+07-15
+正在发送       libmmcamera2_frame_algorithm.so
+正在发送       libmmcamera2_stats_algorithm.so
+传输文件数据 ..
+提交后的版本为 30320。
+[PD1302F]:sync with PD1302L lib!
+
+PD1302F_EX
+07-15
+正在发送       libmmcamera2_frame_algorithm.so
+正在发送       libmmcamera2_stats_algorithm.so
+传输文件数据 ..
+提交后的版本为 30324。
