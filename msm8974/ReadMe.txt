@@ -110,6 +110,18 @@ tag:patch:PD1303 close QCameraHWI_Mem log
 提交后的版本为 31047。
 [PD1303]: close eeprom log
 
+08-12
+正在发送       libmmcamera2_stats_algorithm.so
+传输文件数据 .
+提交后的版本为 33893。
+PD1303: commit new stats_algorithm lib of del mm-camera-CORE log
+
+08-22
+正在发送       msm_buf_mgr.c
+传输文件数据 .
+提交后的版本为 2160。
+tag:patch:PD1303/PD1302 case 01616809 ION release error cause system reboot
+
 
 06-06
 正在发送       sensor.c
@@ -164,7 +176,7 @@ ats/q3a$ svn ci q3a_port.c
 传输文件数据 ..
 提交后的版本为 1951。
 bbkpatch.shc commit msm_buf_mgr.h msm_buf_mgr.c -m "tag:patch:PD1303LG3 case 01616809 ION release error cause system reboot"
-
+PD1302 product line:
 
 
 pd1302
@@ -271,7 +283,20 @@ PD1302: 0001-QCamera2-fix-the-mistake-type-of-getFlashValue
 提交后的版本为 28418。
 [PD1302]: [B140621-043]专业相机，开启闪光灯拍照几张后向上滑动，提示相机故障，无法连接到相机（1/20）
 
+08-05
+正在发送       QCamera2HWI.cpp
+传输文件数据 .
+提交后的版本为 32930。
+[PD1302L]:Livesnapshot use hw rotation.not use sw!
 
+
+08-09
+正在发送       mct_stream.c
+正在发送       mct_stream.h
+传输文件数据 ..
+提交后的版本为 33584。
+PD1302: prepare error for resolve, sync  with PD1303
+		[B140802-100]相机中，开启闪光灯，切换到自动场景模式，识别到夜景后拍照，再切换到正常模式，点击拍照，相机界面卡死，稍后提示无法连接到相机。(3/20)
 
 PD1302LG4
 正在发送       QCamera2HWI.cpp
@@ -322,6 +347,13 @@ PD1302LG4
 提交后的版本为 32401。
 [PD1302]: [B140725-021]monkey test：相机异常ANR，子类型/详细信息：keyDispatchingTimedOut/时间无响应
 
+09-09
+正在发送       libmmcamera2_stats_algorithm.so
+传输文件数据 .
+提交后的版本为 36916。
+PD1302:close mm-camera-CORE LOG in algo
+
+
 PD1302F
 07-15
 正在发送       libmmcamera2_frame_algorithm.so
@@ -329,6 +361,12 @@ PD1302F
 传输文件数据 ..
 提交后的版本为 30320。
 [PD1302F]:sync with PD1302L lib!
+
+09-09
+正在发送       libmmcamera2_stats_algorithm.so
+传输文件数据 .
+提交后的版本为 36923。
+PD1302F:close mm-camera-CORE LOG in algo
 
 PD1302F_EX
 07-15

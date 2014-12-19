@@ -6,3 +6,8 @@ mt6582
 提交后的版本为 23282。
 [PD1309BL]:[B140506-446]【anr】相机：前置HDR拍照，界面卡死，无法连接到相机
 
+07-31
+正在发送       camera_isp.c
+传输文件数据 .
+提交后的版本为 1227。
+tag:patch:PD1401L add camera isp patch form wuxingqun

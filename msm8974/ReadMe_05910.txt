@@ -86,3 +86,80 @@ tag:patch: PD1302 4.4 open actuator.c awb_port.c property_get() function
 传输文件数据 .
 提交后的版本为 32343。
 PD1302: config imx214 actuator1 for af support
+
+正在发送       Android.mk
+增加 (二进制)  system/vendor/lib/libmmcamera2_frame_algorithm.so
+传输文件数据 ..
+提交后的版本为 2045。
+tag:patch:PD1302L 4.4 commit af frame lib
+
+08-01
+正在发送       device-vendor.mk
+传输文件数据 .
+提交后的版本为 32591。
+[PD1302]:add liteon_cat24c16 eeprom lib
+32583 add frame lib
+
+08-04
+正在发送       QCamera2HWI.cpp
+正在发送       QCamera2HWI.h
+传输文件数据 ..
+提交后的版本为 2071。
+tag:patch:PD1302 4.4 camera filter start/stop Preview add a val control
+
+08-08
+正在发送       Android.mk
+正在发送       ArcFBShot/lib/libarcsoft_flawless_face.a
+正在发送       ArcFBShot/lib/libarcsoft_iyounger.a
+正在发送       ArcFBShot/lib/libarcsoft_live_makup.a
+正在发送       ArcFBShot/lib/libarcsoft_videooutline.a
+正在发送       QCameraPostProc.cpp
+正在发送       arcfocus/inc/arcsoft_picfocus.h
+正在发送       arcfocus/lib/libarcsoft_picfocus.a
+传输文件数据 ........
+提交后的版本为 2087。
+tag:patch:PD1302 4.4 recommit arc lib
+
+08-27
+正在发送       mm_camera_interface.c
+正在发送       mm_camera_stream.c
+传输文件数据 ..
+提交后的版本为 2189。
+tag:patch:STD1410 add g_log_ctrl var control ouput of log
+
+08-28
+正在发送       vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8974/system/vendor/lib/libmmcamera2_stats_algorithm.so
+传输文件数据 .
+提交后的版本为 35840。
+STD1410: del mm-camera-CORE log of 3a
+
+正在发送       sensor_dbg.h
+传输文件数据 .
+提交后的版本为 2201。
+tag:patch:STD1410 close mm-camera-sensor SLOW log
+
+正在发送       QCamera2HWI.h
+正在发送       QCameraParameters.cpp
+传输文件数据 ..
+提交后的版本为 2202。
+tag:patch:STD1410 close QCameraParameters log
+
+09-04
+正在发送       msm_vb2.c
+传输文件数据 .
+提交后的版本为 2229。
+tag:patch:STD1410 cpp buf process error. no cpp data ret
+
+09-05
+正在发送       QCamera2HWI.cpp
+正在发送       QCameraChannel.cpp
+传输文件数据 ..
+提交后的版本为 2234。
+tag:patch:STD1410 add channel error log
+
+09-09
+正在发送       includes/camera_dbg.h
+正在发送       media-controller/mct/controller/mct_controller.c
+传输文件数据 ..
+提交后的版本为 2245。
+tag:patch:PD1302 add log ctrl val

@@ -44,3 +44,8 @@ P122
 提交后的版本为 24427
 [PD1309]: 140519-ALPS01567861-BBK82_WET_JB5_ALPS.JB5.MP.V1.6_P138-进入相机绿屏、死机问题
 
+07-31
+正在发送       camera_isp.c
+传输文件数据 .
+提交后的版本为 1896。
+tag:patch:PD1309 ALPS01628754(For_BBK82_WET_JB5_ALPS.JB5.MP.V1.6_P147)
